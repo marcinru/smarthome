@@ -89,7 +89,21 @@ body {
     top: 305px;
 }
 
-.toggle-day {
-  background-color: blue; 
-  color: white;
+#day-night.toggle-day {
+  background-position: 0 -88px;
+}
+
+#day-night {
+    background: url('../img/day-night.png') no-repeat;
+    background-size: cover;
+    height: 51px;
+    right: 38px;
+    top: 10px;
+    position: absolute;
+    text-indent: -999em;
+    width: 99px;
+}
+
+#day-night:hover {
+    cursor: pointer;
 }
