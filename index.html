@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Smarthome</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="plan">
+        <div id="kitchen" data-id="1" class="icon switchLight" title="switch light on/off">switch light on/off</div>
+        <div id="lounge" data-id="2" class="icon switchLight" title="switch light on/off">switch light on/off</div>
+        <div id="dinning-room" data-id="3" class="icon switchLight" title="switch light on/off">switch light on/off</div>
+        <div id="garage" data-id="4" class="icon switchLight" title="switch light on/off">switch light on/off</div>
+        <div class="icon openDoor" data-id="5">open garage door</div>
+        <div id="temp-outside" class="icon measureTemp">measure temperature outside</div>
+        <div id="temp-outside-screen" class="temp-outside-container"></div>
+        <button id="day-night" data-id="6">Day/Night</button>
+    </div>
+  </body>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="smarthome.js"></script>
+</html>

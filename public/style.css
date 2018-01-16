@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+}
+
+.plan {
+    background: no-repeat center url('../img/plan.svg');
+    background-size: cover;
+    width: 750px;
+    height: 750px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.icon {
+    background-size: cover;
+    height: 50px;
+    position: absolute;
+    text-indent: -999em;
+    width: 50px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.toggle-light {
+    filter: drop-shadow(10px 10px 10px rgb(255, 208, 0)) drop-shadow(-10px -10px 10px rgb(255, 208, 0));
+}
+
+.toggle-temp {
+    filter: drop-shadow(10px 10px 10px rgb(255, 0, 242)) drop-shadow(-10px -10px 10px rgb(255, 0, 242));
+}
+
+.toggle-door {
+    filter: drop-shadow(10px 10px 10px rgb(255, 0, 0)) drop-shadow(-10px -10px 10px rgb(255, 0, 0));
+}
+
+.switchLight {
+    background-image: url('../img/bulb.png');
+}
+
+.temp-outside-container {
+    background-color: beige;
+    padding: 4px 5px;
+    border: 2px solid bisque;
+    left: 720px;
+    top: 273px;
+    font: bold 18px/1 Arial, sans-serif;
+    position: absolute;
+}
+
+#kitchen {
+    left: 455px;
+    top: 130px;
+}
+
+#dinning-room {
+    left: 160px;
+    top: 130px;
+}
+
+#lounge {
+    left: 140px;
+    top: 393px;
+}
+
+#garage {
+    left: 517px;
+    top: 473px;
+}
+
+.openDoor {
+    background-image: url('../img/door.png');
+    left: 517px;
+    top: 642px;
+}
+
+.measureTemp {
+    background-image: url('../img/temperature.png');
+}
+
+#temp-inside {
+    left: 297px;
+    top: 305px;
+}
+
+#temp-outside {
+    left: 720px;
+    top: 305px;
+}
+
+.toggle-day {
+  background-color: blue; 
+  color: white;
+}
